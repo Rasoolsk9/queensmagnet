@@ -1,0 +1,57 @@
+/* Global */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Logo styling */
+.logo {
+  width: 60px;
+  height: auto;
+}
+
+/* Header styling */
+header {
+  background-color: #000000ff; /* deep royal purple */
+}
+
+/* Utilities override */
+.btn-primary {
+  background-color: #E91E63;
+  color: white;
+  padding: 12px 26px;
+  border-radius: 9999px;
+  font-weight: 600;
+  display: inline-block;
+  transition: opacity .2s;
+}
+.btn-primary:hover {
+  opacity: .85;
+}
+
+ #videoSlider {
+  max-width: 400px;  /* Change from 450px to smaller */
+  overflow: hidden;
+}
+
+#videoTrack {
+  gap: 0;
+}
+
+#videoSlider video {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+
+
+/* Drawer Mobile Menu */
+#drawer {
+  transition: transform 0.35s ease;
+  z-index: 9999;
+}
+
+/* Footer text */
+footer p, footer li {
+  font-size: 14px;
+}

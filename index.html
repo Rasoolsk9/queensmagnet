@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Queen’s Magnet – Hand Crafted Memories</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+<!-- Header -->
+<header class="w-full text-white">
+  <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+    <img src="assets/logo.png" alt="Logo" class="logo">
+    <span class="text-xl font-semibold text-white tracking-wide">Queen's Magnet</span>
+    <button id="menuBtn" class="text-white text-3xl">&#9776;</button>
+  </div>
+</header>
+
+<!-- Mobile Menu Drawer -->
+<div id="drawer" class="fixed top-0 left-0 h-full w-64 bg-white shadow-lg transform -translate-x-full transition">
+  <button id="closeDrawer" class="text-black text-2xl m-4">&times;</button>
+  <ul class="text-lg px-6 space-y-4">
+    <li><a href="order.html" class="block">Order Magnets</a></li>
+    <li><a href="#" class="block">Bulk Orders</a></li>
+    <li><a href="#" class="block">Course</a></li>
+    <li><a href="#" class="block">Templates</a></li>
+    <li><a href="#" class="block">Machines</a></li>
+    <li><a href="#" class="block">About Us</a></li>
+    <li><a href="#" class="block">Contact</a></li>
+  </ul>
+</div>
+
+<!-- Hero -->
+<section class="relative h-[70vh] flex items-center justify-center bg-cover bg-center" style="background-image:url('assets/hero.png')">
+  <div class="bg-black/50 w-full h-full absolute top-0 left-0"></div>
+  <div class="relative z-10 text-center text-white">
+    <h1 class="text-4xl font-bold mb-3">Turn your memories into magnets that never fade</h1>
+    <p class="text-lg mb-5">Hand Crafted Magnets</p>
+    <a href="order.html" class="px-6 py-3 bg-pink-600 rounded-full text-white font-semibold text-lg">Order Now</a>
+  </div>
+</section>
+
+<!-- 🎉 Book Your Event – Live Magnet Printing Stall -->
+<section class="bg-white py-16 px-6">
+  <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+    <!-- Left Image -->
+    <div>
+      <img src="assets/gallery-2.png" class="rounded-xl shadow-lg w-full" alt="Live Magnet Event">
+    </div>
+
+    <!-- Right Text -->
+    <div>
+      <h2 class="text-3xl font-bold mb-4">Make Your Event Unforgettable</h2>
+      <p class="text-gray-600 text-lg mb-6">
+        Turn weddings, birthday celebrations, naming ceremonies, corporate events and parties into a 
+        magical memory booth!<br><br>
+        Our live magnet-printing stall captures moments instantly and hands them to your guests as 
+        beautiful glossy fridge magnets — a gift they will cherish forever. 💝
+      </p>
+
+      <ul class="space-y-3 text-lg">
+        <li>✔ Live setup – we print magnets on-spot in 30 seconds</li>
+        <li>✔ Bride & Groom / Birthday Kid Name Print on Each Magnet</li>
+        <li>✔ Unlimited Photos – Capture + Print</li>
+        <li>✔ Instagram-worthy booth setup for your guests</li>
+        <li>✔ Best idea for gifts, favours & memories</li>
+      </ul>
+
+      <div class="mt-8">
+        <a href="https://wa.me/917993909809?text=Hi!%20I%20want%20to%20book%20a%20Live%20Magnet%20Event%20Stall.%20Please%20share%20pricing%20and%20details.%20Event%20Type:%0ADate:%0AVenue:%0A"
+          class="bg-pink-600 text-white px-7 py-3 rounded-full text-lg font-medium shadow hover:opacity-90 transition">
+          📩 Book Live Event Stall
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- Premium Quality – Second Feature Section -->
+<section class="max-w-6xl mx-auto py-16 px-6 flex flex-col md:flex-row items-center gap-10">
+  <div class="md:w-1/2">
+    <img src="assets/gallery-1.png" class="rounded-xl shadow-lg w-full" />
+  </div>
+  <div class="md:w-1/2">
+    <h2 class="text-3xl font-bold mb-4">Premium Quality That Lasts</h2>
+    <p class="text-gray-600 mb-6">
+      Every magnet is carefully crafted to ensure vibrant color reproduction, durable material, and a glossy finish that stays beautiful for years.
+    </p>
+    <ul class="space-y-3 text-lg">
+      <li>✔ 3D glossy print finish</li>
+      <li>✔ Strong magnet grip on metal surfaces</li>
+      <li>✔ Scratch-resistant surface</li>
+      <li>✔ Perfect size for gifting</li>
+    </ul>
+    <a href="order.html" class="btn-primary mt-8 inline-block">Order Your Magnets</a>
+  </div>
+</section>
+
+
+<!-- Story -->
+<section class="max-w-5xl mx-auto py-14 px-6">
+  <h2 class="text-3xl font-bold mb-4">A Passion for Preserving Memories</h2>
+  <p>Every magnet is carefully handmade with attention to detail. We help families preserve memories that should be seen and enjoyed every day.</p>
+</section>
+
+<!-- Follow -->
+<section class="text-center py-14 bg-white">
+  <h3 class="text-2xl font-bold mb-4">Follow Our Journey</h3>
+  <p>Join thousands watching our magnet-making journey.</p>
+</section>
+
+<!-- 🎥 Follow Our Journey – Video Slider -->
+<section class="bg-gray-50 py-16 px-6">
+
+  <div class="relative max-w-md mx-auto overflow-hidden" id="videoSlider">
+
+    <!-- Video Wrapper -->
+    <div class="flex transition-transform duration-500" id="videoTrack">
+      <video class="w-full rounded-xl shadow-lg" src="assets/reels/reel1.mp4" muted autoplay loop playsinline></video>
+      <video class="w-full rounded-xl shadow-lg" src="assets/reels/reel2.mp4" muted autoplay loop playsinline></video>
+      <!-- Add more videos by copy-pasting next line -->
+      <!-- <video class="w-full rounded-xl shadow-lg" src="assets/reels/reel2.mp4" muted autoplay loop playsinline></video> -->
+      <!-- <video class="w-full rounded-xl shadow-lg" src="assets/reels/reel3.mp4" muted autoplay loop playsinline></video> -->
+    </div>
+
+    <!-- Navigation Buttons -->
+    <button id="prevBtn"
+      class="absolute left-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white px-3 py-2 rounded-full text-xl">
+      ‹
+    </button>
+    <button id="nextBtn"
+      class="absolute right-0 top-1/2 -translate-y-1/2 bg-black bg-opacity-50 text-white px-3 py-2 rounded-full text-xl">
+      ›
+    </button>
+
+  </div>
+</section>
+
+<!-- Instagram Link -->
+<div class="text-center pb-8">
+  <a href="https://www.instagram.com/queensmagnet/reels/" 
+     target="_blank"
+     class="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 text-white px-6 py-3 rounded-full font-semibold text-lg shadow-lg hover:opacity-90 transition">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+    </svg>
+    @queensmagnet
+  </a>
+</div>
+
+<!-- Stats -->
+<section class="bg-black text-white py-12 text-center">
+  <h3 class="text-xl font-bold mb-3">13+ Years</h3>
+  <p>Over 70,000 orders • 800,000 magnets made • Thousands of 5-star reviews</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-10">
+  <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-6">
+    <div>
+      <h4 class="font-bold mb-3">About</h4>
+      <p>Queen’s Magnet – Premium Handmade Photo Magnets</p>
+    </div>
+    <div>
+      <h4 class="font-bold mb-3">Help</h4>
+      <ul>
+        <li>Shipping</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-3">Follow</h4>
+      <ul>
+        <li>Instagram</li>
+        <li>TikTok</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-3">Contact</h4>
+      <p>WhatsApp: +91-7993909809</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById("menuBtn").onclick = ()=>drawer.style.transform="translateX(0)";
+document.getElementById("closeDrawer").onclick = ()=>drawer.style.transform="translateX(-100%)";
+</script>
+
+</body>
+</html>

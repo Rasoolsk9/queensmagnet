@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order – Queen’s Magnet</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script defer src="js/main.js"></script>
+</head>
+
+<body class="bg-white text-gray-900">
+
+<!-- Header -->
+<header class="w-full text-white">
+  <div class="max-w-6xl mx-auto flex items-center justify-between p-4">
+    <a href="index.html"><img src="assets/logo.png" class="h-10"></a>
+    <span class="text-xl font-semibold text-white tracking-wide">Queen's Magnet</span>
+    <a href="index.html" class="text-sm underline">← Back</a>
+  </div>
+</header>
+
+
+<!-- Product Section -->
+<section class="max-w-5xl mx-auto py-10 px-6">
+  <div class="grid md:grid-cols-2 gap-6">
+    
+    <!-- Left: Carousel (simple static for now) -->
+    <div>
+      <img id="mainImage" src="assets/product.png" class="rounded-lg shadow-lg w-full mb-4">
+      <div class="grid grid-cols-3 gap-2">
+        <img src="assets/gallery-1.png" class="thumb rounded-lg shadow cursor-pointer" onclick="switchImage(this.src)">
+        <img src="assets/gallery-2.png" class="thumb rounded-lg shadow cursor-pointer" onclick="switchImage(this.src)">
+        <img src="assets/gallery-3.png" class="thumb rounded-lg shadow cursor-pointer" onclick="switchImage(this.src)">
+        <img src="assets/gallery-4.png" class="thumb rounded-lg shadow cursor-pointer" onclick="switchImage(this.src)">
+      </div>
+    </div>
+    
+    <!-- Right: Product Details -->
+    <div>
+      <h1 class="text-3xl font-bold mb-2">Custom Photo Magnets</h1>
+      <p class="text-gray-600 mb-3">Square – Handmade – Waterproof</p>
+      <p class="text-4xl font-bold text-pink-600 mb-4">₹899 <span class="text-gray-500 text-lg">for 9 magnets</span></p>
+
+      <ul class="text-lg space-y-2 mb-6">
+        <li>✔ High-quality photo print</li>
+        <li>✔ Strong magnet back</li>
+        <li>✔ Delivered in 4–6 days</li>
+      </ul>
+
+      <a href="https://wa.me/917993909809?text=Hi!%20I%20want%20to%20order%20Queen’s%20Magnets.%20Qty:%209%20Photos%0AName:%0AAddress:%0APincode:%0APhone:%0A"
+         class="block w-full text-center bg-pink-600 text-white font-semibold py-3 rounded-xl text-lg">
+        Order on WhatsApp
+      </a>
+
+      <p class="text-sm mt-3 text-gray-500 text-center">
+        You will upload the photos inside WhatsApp after clicking the button above.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- How It Works -->
+<section class="bg-gray-50 py-10 text-center">
+  <h2 class="text-3xl font-bold mb-6">How It Works</h2>
+  <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto px-6">
+    <div>
+      <h3 class="text-xl font-semibold mb-2">1️⃣ Send Photos</h3>
+      <p>Click Order → WhatsApp opens → Upload 9 images.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold mb-2">2️⃣ Approve Preview</h3>
+      <p>We send layout preview before printing.</p>
+    </div>
+    <div>
+      <h3 class="text-xl font-semibold mb-2">3️⃣ Receive Delivery</h3>
+      <p>Parcel delivered to your home in 4–6 days.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Reviews -->
+<section class="max-w-5xl mx-auto py-14 px-6">
+  <h2 class="text-3xl font-bold mb-6">Customer Reviews</h2>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="p-4 shadow rounded bg-white">“Quality is superb – memories that stick!” – ⭐⭐⭐⭐⭐</div>
+    <div class="p-4 shadow rounded bg-white">“Perfect gift for my wife – she loved it.” – ⭐⭐⭐⭐⭐</div>
+    <div class="p-4 shadow rounded bg-white">“Fast delivery and premium finish.” – ⭐⭐⭐⭐⭐</div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-8 text-center">
+  <p>Queen’s Magnet © All Rights Reserved</p>
+  <p class="mt-2 text-sm">WhatsApp: +91-7993909809</p>
+</footer>
+
+<script>
+function switchImage(src){
+  document.getElementById("mainImage").src = src;
+}
+</script>
+
+</body>
+</html>
