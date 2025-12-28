@@ -5,14 +5,16 @@ body {
 
 /* Logo styling */
 .logo {
-  width: 60px;
+  width: 66px;
   height: auto;
 }
 
 /* Header styling */
 header {
-  background-color: #000000ff; /* deep royal purple */
+  background-color: #0b0008ff; /* deep royal purple */
 }
+
+
 
 /* Utilities override */
 .btn-primary {
